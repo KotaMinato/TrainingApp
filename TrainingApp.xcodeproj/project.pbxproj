@@ -13,6 +13,8 @@
 		14EA4B1B25F5B3E3005D3144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EA4B1925F5B3E3005D3144 /* Main.storyboard */; };
 		14EA4B1D25F5B3E4005D3144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EA4B1C25F5B3E4005D3144 /* Assets.xcassets */; };
 		14EA4B2025F5B3E4005D3144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EA4B1E25F5B3E4005D3144 /* LaunchScreen.storyboard */; };
+		14EA4B2A25F5B412005D3144 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA4B2825F5B412005D3144 /* SampleViewController.swift */; };
+		14EA4B2B25F5B412005D3144 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EA4B2925F5B412005D3144 /* SampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		14EA4B1C25F5B3E4005D3144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14EA4B1F25F5B3E4005D3144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14EA4B2125F5B3E4005D3144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14EA4B2825F5B412005D3144 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		14EA4B2925F5B412005D3144 /* SampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				14EA4B1C25F5B3E4005D3144 /* Assets.xcassets */,
 				14EA4B1E25F5B3E4005D3144 /* LaunchScreen.storyboard */,
 				14EA4B2125F5B3E4005D3144 /* Info.plist */,
+				14EA4B2825F5B412005D3144 /* SampleViewController.swift */,
+				14EA4B2925F5B412005D3144 /* SampleViewController.xib */,
 			);
 			path = TrainingApp;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				14EA4B2025F5B3E4005D3144 /* LaunchScreen.storyboard in Resources */,
 				14EA4B1D25F5B3E4005D3144 /* Assets.xcassets in Resources */,
+				14EA4B2B25F5B412005D3144 /* SampleViewController.xib in Resources */,
 				14EA4B1B25F5B3E3005D3144 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				14EA4B1825F5B3E3005D3144 /* ViewController.swift in Sources */,
 				14EA4B1425F5B3E3005D3144 /* AppDelegate.swift in Sources */,
+				14EA4B2A25F5B412005D3144 /* SampleViewController.swift in Sources */,
 				14EA4B1625F5B3E3005D3144 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
