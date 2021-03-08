@@ -15,24 +15,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        // Do any additional setup after loading the view.
+        
         let string: String
-                if let count = navigationController?.viewControllers.count {
+        if let count = navigationController?.viewControllers.count {
                     string = "\(count)"
                 } else {
                     string = ""
                 }
-                title = string
+        
+                title = string //Navigationcontrollerのtitle
     }
 
-    override func didReceiveMemoryWarning() {
-           super.didReceiveMemoryWarning()
-           // Dispose of any resources that can be recreated.
-       }
     
     
-    
-    @IBAction func pushButtonTapped(_ sender: Any) {
+    @IBAction func pushButtonTapped(_ sender: UIButton) {
         guard let viewControlelr = storyboard?.instantiateViewController(withIdentifier: "ViewController") as? ViewController else {
                     return
                 }
